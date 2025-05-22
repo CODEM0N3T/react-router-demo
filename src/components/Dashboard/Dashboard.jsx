@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Dashboard.css";
 
 function Dashboard() {
@@ -7,6 +8,8 @@ function Dashboard() {
       <p>
         The #1 Destination for Emoji Reviews on the World Wide Web Since 2020!
       </p>
+      {/* Add a Link tag that links to our /reviews route. */}
+      <Link to="/reviews">Click here to see my latest reviews!</Link>
     </div>
   );
 }
